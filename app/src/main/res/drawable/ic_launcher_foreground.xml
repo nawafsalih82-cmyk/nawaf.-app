@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+        <!-- Open Gradebook Ledger / Book Base -->
+        <!-- Left Page -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M28,34 C28,31.8 29.8,30 32,30 L52,32 L52,78 L32,76 C29.8,76 28,74.2 28,72 Z" />
+        <!-- Right Page -->
+        <path
+            android:fillColor="#F1F5F9"
+            android:pathData="M80,34 C80,31.8 78.2,30 76,30 L56,32 L56,78 L76,76 C78.2,76 80,74.2 80,72 Z" />
+        <!-- Book Spine Center Binding -->
+        <path
+            android:fillColor="#CBD5E1"
+            android:pathData="M52,32 L56,32 L56,78 L52,78 Z" />
+        <!-- Ledger Ruled Lines Left Page -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M34,42 L48,42 M34,48 L48,48 M34,54 L48,54 M34,60 L48,60 M34,66 L48,66"
+            android:strokeWidth="1.8"
+            android:strokeColor="#94A3B8"
+            android:strokeLineCap="round" />
+        <!-- Ledger Ruled Lines Right Page -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M60,42 L74,42 M60,48 L74,48 M60,54 L74,54 M60,60 L74,60 M60,66 L74,66"
+            android:strokeWidth="1.8"
+            android:strokeColor="#94A3B8"
+            android:strokeLineCap="round" />
+        <!-- Graduation Cap (Mortarboard) at top center -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M54,18 L76,28 L54,38 L32,28 Z" />
+        <path
+            android:fillColor="#D97706"
+            android:pathData="M44,33.5 L44,42 C44,47 64,47 64,42 L64,33.5 L54,38 Z" />
+        <!-- Cap Tassel -->
+        <path
+            android:pathData="M70,29.5 L73,40 M71,40 L75,40"
+            android:strokeWidth="1.5"
+            android:strokeColor="#FDE68A"
+            android:strokeLineCap="round" />
+        <!-- Gold Star / Check badge in bottom right corner -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M72,66 C68,66 65,69 65,73 C65,80 72,84 72,84 C72,84 79,80 79,73 C79,69 76,66 72,66 Z" />
+        <path
+            android:pathData="M69,73 L71.5,75.5 L75.5,70.5"
+            android:strokeWidth="1.6"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>
+
